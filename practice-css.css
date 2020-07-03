@@ -1,0 +1,120 @@
+
+body{
+    background-color: #F0F0F0;
+    
+}
+
+
+
+.header{
+    background-color:#34495e;
+}
+img{
+    max-width: 100%;
+}
+.logo {
+	text-align: center;
+	line-height: 72px;
+}
+.logo a img{
+    width: 230px;
+}
+.main-menu{}
+.main-menu ul{
+    margin-bottom: 0;
+    text-align: right;
+    list-style: none;
+}
+.main-menu ul li{
+    display: inline-block;
+ 
+}
+.main-menu ul li a{
+    display: block;
+    color:white;
+    padding: 28px;
+    text-decoration: none;
+    margin-left: -4px;
+    transition: 0.4s;
+
+}
+.main-menu ul li a:hover{
+    background: #2c3e50;
+    
+}
+/**banner-part**/
+
+.banner{
+    background-image: url(img/applebanner.jpg);
+    padding: 200px 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+.banner-text{
+    text-align: center;
+    margin: 0 auto;
+    color: white;
+}
+/**about-part**/
+.about{
+    background-color: #F0F0F0;
+}
+.about-text{
+    margin: 0 auto;
+}
+/**notiuce-bar**/
+
+.notice-bar h2{
+    border-bottom: 2px solid #CDCDCD;
+}
+.notice-bar ul{
+    margin-left:-35px;
+    list-style: none;
+}
+.notice-bar ul li{
+    border: 1px solid #CDCDCD;
+    padding:5px 5px;
+    border-radius: 5px;
+    margin-top:5px ;
+}
+/**service part**/
+
+span {
+	width: 60px;
+	height: 60px;
+	margin: 0 auto;
+	background-color: #34495E;
+	color: white;
+	line-height: 60px;
+	border-radius: 20px 0 20px 0;
+	font-size: 30px;
+	/* padding-top: ; */
+	margin-top: 5px;
+}
+
+/**footer-part**/
+.footer{
+    background-color:#202340 ;
+}
+.footer p {
+	color: white;
+	margin-bottom: 0;
+	line-height: 80px;
+}
+.footer-menu{
+    
+}
+.footer-menu ul{
+    margin-bottom: 0;
+}
+.footer-menu ul li{
+    display: inline-block;
+}
+.footer-menu ul li a {
+	display: block;
+	padding: 20px;
+	color: white;
+	font-size: 25px;
+	line-height: 41px;
+}
